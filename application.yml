@@ -1,0 +1,17 @@
+spring:
+  profiles: 
+    active: dev
+  application:
+    name: Zuul
+
+---
+spring:
+  profiles: dev
+  application:
+    name: dev
+
+---
+spring:
+  profiles: test
+  application:
+    name: test
